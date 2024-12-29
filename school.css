@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(120deg, #ff8c00, #ffc300);
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ffdd00;
+}
+
+/* Hero Section */
+.hero-content {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background: #ffffff;
+    color: #ff8c00;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #ffdd00;
+    color: white;
+}
